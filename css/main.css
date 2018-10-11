@@ -1,10 +1,10 @@
 *{
-	box-sizing: border-box;
+box-sizing: border-box;
 }
 body{
-	margin: 0;
-	padding: 0;
-	border: 0;
+margin: 0;
+padding: 0;
+border: 0;
 }
 	.navbar{
 		margin: 0;
@@ -25,107 +25,175 @@ body{
 				position: absolute;
 				background-color: #000;
 				margin-left: 173px;
-				line-height: 100px; 
+				line-height: 100px;
 			}
 			.bar-menu{
 				list-style-type: none;
 				text-align: center;
 				margin-left: 260px;
 			}
-			.bar-menu li{
-				display: inline-block;
-				margin: 10px;
-				padding: 10px;
-				color: #000;
-			}
-			.bar-menu a{
-				color: #000;
-				text-decoration: none;
-				font-family: "muli", sans-serif;
-				font-size: 300;
-			}
-			.btn-navbar{
-				width: 116px;
-				height: 34px;
-				border-radius: 20px;
-				background-color: rgb(255 80 113);
-				color: #fff;
-				border-style: none;
-				font-family: "muli", sans-serif;
-				font-size: 300;
-			}
-			.hero-section{
-				width: 100%;
-				padding-top: 120px;
-			}
-			.title-illustration{
-				width: 100%;
-				height: 100%;
-				display: flex;
-			}
+				.bar-menu li{
+					display: inline-block;
+					margin: 10px;
+					padding: 10px;
+					color: #000;
+				}
+				.bar-menu a{
+					color: #000;
+					text-decoration: none;
+					font-family: "muli", sans-serif;
+					font-size: 300;
+				}
+				.btn-navbar{
+					width: 116px;
+					height: 34px;
+					border-radius: 20px;
+					background-color: rgb(255 80 113);
+					color: #fff;
+					border-style: none;
+					font-family: "muli", sans-serif;
+					font-size: 300;
+				}
+	.hero-section{
+		width: 100%;
+		padding-top: 120px;
+	}
+		.title-illustration{
+			width: 100%;
+			height: 100%;
+			display: flex;
+		}
 			.illustration-coffe-bar{
-				position: relative;
 				width: 60%;
 				height: 50%;
-				top:80px;
+				margin-top:80px;
 			}
-			.pink-balls{
-				margin-left: 120px;
-			}
+				.pink-balls{
+					margin-left: 120px;
+				}
 			.title-best-pos{
-				position: relative;
 				width: 40%;
 				height: 50%;
-				float: right;
-				top:80px;
+				margin-top:80px;
 			}
-			.box-text{
-				font-family: "muli", sans-serif;
-				list-style-type: none;
-			}
-			h1{
-				width: 205px;
-			}
-			.smp-op-text{
-				width: 150px;
-			}
-			.line-detail{
-				width: 64px;
-				height: 1px;
-				background-color: #000;
-				margin-left: 0;
-			}
-			.blue-section{
-				width: 100%;
-				padding-top: 120px;
-				height: 50%
-			}
-			.sentence-container{
-				width: 100%;
-				height: 320px;
-				background-color: blue;
-				text-align: center;
-				font-family: "muli", sans-serif;
-				z-index: 100000;
-				position: relative;
-			}
-			.background-copy{
-				width: 100%;
-				height: 320px;
-				background-color: blue;
-				transform:rotate(-2deg);
-				position: absolute;
-				margin-top: -319px;
-				opacity: .5;
-			}
-			h2{
-				padding-top: 107px;
-				font-size: 400;
+				.box-text{
+					font-family: "muli", sans-serif;
+					list-style-type: none;
+				}
+					.best-title{
+						width: 205px;
+					}
+					.smp-op-text{
+						width: 47%;
+					}
+					.line-detail{
+						width: 64px;
+						height: 1px;
+						background-color: #000;
+						margin-left: 0;
+					}
+					.ready-text{
+						color: rgb(255 80 113);
+					}
+	.blue-section{
+		width: 100%;
+		padding-top: 120px;
+		height: 50%;
+	}
+		.sentence-container{
+			width: 100%;
+			height: 320px;
+			background-color: #3498DB;
+			text-align: center;
+			font-family: "muli", sans-serif;
+			z-index: 100000;
+			position: relative;
+		}
+			.text-container{
+				height: 25%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
 			}
 			.sentence{
-				padding-top: 53px;
+				width: 40%;
 				font-size: 300;
+				color: #fff;
 			}
+		.background-copy{
+			width: 100%;
+			height: 320px;
+			background-color: #3498DB;
+			transform:rotate(-2deg);
+			position: absolute;
+			margin-top: -319px;
+			opacity: .5;
+		}
+h2{
+padding-top: 107px;
+font-size: 400;
+color: #fff;
+}
 
 
-		
+	.section-retail-qsr-beauty{
+		width: 100%;
+		height: 50%;
+	}
+		.cards-container{
+			position: absolute;
+			width: 100%;
+			height:50%;
+		}
+			.init-container{
+				position: relative;
+				width: 100%;
+				height: 15%;
+				margin: 0;
+			}
+				.init-section{
+					text-align: center;
+					font-size: 300;
+					font-family: "muli", sans-serif;
+					margin-top: 30px;
+				}
+			.container-title{
+				position: relative;
+				width: 100%;
+				height: 15%;
+				margin: 0;
+			}
+				.franpos-title{
+					text-align: center;
+					font-family: "muli" , sans-serif;
+					font-size: 400;
+					margin-top: -5px;
+				}
+			.retail-card{
+				display: flex;
+				height: 50%;
+				width:100%;
+				margin-top: 30px;
+			}
+				.text-img-container{
+					margin: 20px;
+					padding: 25px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					box-shadow: 4px 5px 7px 4px #D7DBDD;
+					width: 340px;
+					height: 190px;
+				}
+					.text-retail{
+						width: 200px;
+						height: 182px;
+						font-family: "muli", sans-serif;
+						font-size: 300;
+					}
+					.shopping-cart{
+						width: 50%;
+					}
+						.img-cart{
+							margin-left: 30px;
+						}
