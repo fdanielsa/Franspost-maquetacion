@@ -102,6 +102,7 @@ border: 0;
 			font-family: "muli", sans-serif;
 			z-index: 100000;
 			position: relative;
+			overflow: hidden;
 		}
 			.text-container{
 				height: 25%;
@@ -127,6 +128,7 @@ border: 0;
 			position: absolute;
 			margin-top: -319px;
 			opacity: .5;
+			overflow: hidden;
 		}
 	.section-retail-qsr-beauty{
 		width: 100%;
@@ -214,3 +216,14 @@ border: 0;
 	.comparison-section{
 		width: 100%;
 	}
+		.oldway{
+			text-align: center;
+			font-family: "muli", sans-serif;
+			font-size: 400;
+			margin-top: 815px;
+		}
+		.choice-title{
+			text-align: center;
+			font-family: "muli", sans-serif;
+			font-size: 400;
+		}
