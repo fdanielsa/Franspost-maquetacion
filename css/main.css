@@ -6,6 +6,8 @@ margin: 0;
 padding: 0;
 border: 0;
 }
+
+/* Navbar section */
 	.navbar{
 		margin: 0;
 		padding: 0;
@@ -38,22 +40,24 @@ border: 0;
 					padding: 10px;
 					color: #000;
 				}
-				.bar-menu a{
-					color: #000;
-					text-decoration: none;
-					font-family: "muli", sans-serif;
-					font-size: 300;
-				}
-				.btn-navbar{
-					width: 116px;
-					height: 34px;
-					border-radius: 20px;
-					background-color: rgb(255 80 113);
-					color: #fff;
-					border-style: none;
-					font-family: "muli", sans-serif;
-					font-size: 300;
-				}
+					.bar-menu a{
+						color: #000;
+						text-decoration: none;
+						font-family: "muli", sans-serif;
+						font-size: 300;
+					}
+					.btn-navbar{
+						width: 116px;
+						height: 34px;
+						border-radius: 20px;
+						background-color: rgb(255 80 113);
+						color: #fff;
+						border-style: none;
+						font-family: "muli", sans-serif;
+						font-size: 300;
+					}
+/* END Navbar section */
+/* Herosection */
 	.hero-section{
 		width: 100%;
 		padding-top: 120px;
@@ -90,20 +94,28 @@ border: 0;
 				.ready-text{
 					color: rgb(255 80 113);
 				}
+/* END Herosection */
+/* Blue section */
 	.blue-section{
 		width: 100%;
-		padding-top: 120px;
+		margin-top: 120px;
 		overflow: hidden;
+		position: relative;
 	}
 		.sentence-container{
 			width: 100%;
-			height: 320px;
 			background-color: #3498DB;
 			text-align: center;
 			font-family: "muli", sans-serif;
 			z-index: 100000;
 			position: relative;
 		}
+			.Tailor-title{
+				padding-top: 107px;
+				font-size: 400;
+				color: #fff;
+				margin: 0;
+			}
 			.text-container{
 				height: 25%;
 				display: flex;
@@ -115,20 +127,17 @@ border: 0;
 				font-size: 300;
 				color: #fff;
 			}
-			.Tailor-title{
-				padding-top: 107px;
-				font-size: 400;
-				color: #fff;
-			}
 		.background-copy{
 			width: 100%;
-			height: 320px;
 			background-color: #3498DB;
 			transform:rotate(-2deg);
+			transform-origin: top left;
 			position: absolute;
 			margin-top: -319px;
 			opacity: .5;
 		}
+/* END Blue section */
+/* Section retail-qsr-beauty */
 	.section-retail-qsr-beauty{
 		width: 100%;
 	}
@@ -190,6 +199,8 @@ border: 0;
 						.img-cart{
 							margin-left: 30px;
 						}
+/* END Section retail-qsr-beauty*/
+/* Clients logos section */
 	.clients-logos-section{
 		width: 100%;
 		position: absolute;
@@ -209,9 +220,11 @@ border: 0;
 			font-size: 400;
 			margin-top: 95px;
 		}
-			.group-logo{
+			.group-logo:not(:last-child){
 				margin-right: 100px;
 			}
+/* END Clients logos section */
+/* Comparison section */
 	.comparison-section{
 		width: 100%;
 	}
@@ -245,3 +258,4 @@ border: 0;
 				text-align: left;
 				margin-left: 10px;
 			}
+/* END Comparison section */
