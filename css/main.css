@@ -130,7 +130,7 @@ border: 0;
 		.background-copy{
 			width: 100%;
 			background-color: #3498DB;
-			transform:rotate(-2deg);
+			transform:rotate(-2deg) translateY(23px);
 			transform-origin: top left;
 			position: absolute;
 			margin-top: -319px;
