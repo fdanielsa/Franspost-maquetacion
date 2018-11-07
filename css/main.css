@@ -277,13 +277,41 @@ border: 0;
 			font-family: "muli" , sans-serif;
 			font-weight: 300;
 			color: #D5DBDB;
-			margin-left: 246px;
+			margin-left: 12%;
 			margin-bottom: 10px;
 	}
 		.say-hello{
 			font-family: "muli", sans-serif;
 			font-weight: 300;
 			color: rgb(255 80 113);
-			margin-left: 246px;
+			margin-left: 12%;
 	}
+	.slide-container{
+		width: 88%;
+		height: 700px;
+		background-color: #21292e;
+		margin-left: 12%;
+	}
+		.selector{
+			width: 90px;
+			height: 90px;
+			background-color: #141e22;
+			border-style: none;
+		}
+		.slider-page{
+			width: 2992px;
+			height: 450px;
+			margin-top: 85px;
+		}
+			.page:not(:last-child){
+				width: 576px;
+				height: 100%;
+				background-color: #fff;
+				border-color: #000;
+				display: inline-block;
+				margin-right: 28px;
+				border: 1px solid;
+				box-shadow: 18px 10px 70px 10px #21292e;
+
+			}
 /* END Section slider*/
