@@ -302,6 +302,7 @@ border: 0;
 			width: 2992px;
 			height: 450px;
 			margin-top: 85px;
+			transform: translateX(-119px);
 		}
 			.page:not(:last-child){
 				width: 576px;
@@ -311,7 +312,7 @@ border: 0;
 				display: inline-block;
 				margin-right: 28px;
 				border: 1px solid;
-				box-shadow: 18px 10px 70px 10px #21292e;
+				box-shadow: -15px 7px 45px -8px #21292e;
 
 			}
 /* END Section slider*/
