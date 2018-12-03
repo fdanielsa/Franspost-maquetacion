@@ -7,6 +7,7 @@ padding: 0;
 border: 0;
 }
 
+
 /* Navbar section */
 	.navbar{
 		margin: 0;
@@ -343,10 +344,18 @@ border: 0;
 			height: 567px;
 			background: #ff6377;
 			position: absolute;
-			transform: translateX(0px);
+			transform: translateX(-100px);
 			margin-top: 576px;
 			border-radius: 0% 100% 100% 0% / 49% 50% 50% 51%;
-
+		}
+		.metaball-purple{
+			width: 160px;
+			height: 350px;
+			background: #c272e8;
+			position: absolute;
+			transform: translateX(1285px);
+			margin-top: 4px;
+			border-radius: 70% 30% 25% 75% / 50% 47% 53% 50%;
 		}
 		.title-Values{
 			font-family: "muli", sans-serif;
@@ -382,6 +391,21 @@ border: 0;
 					color: #555a5f;
 					font-weight: 300;
 				}
-
-
 /* END Icons Values*/
+/* Other story*/
+	.section-otherStory{
+		width: 100%;
+	}
+		.last-title{
+			font-family: "muli", sans-serif;
+			font-weight: 300;
+			color: #65696e;
+			margin-left: 12%;
+		}
+		.nothing-titles{
+			font-family: "muli", sans-serif;
+			font-weight: 400;
+			color: rgb(255 80 113);
+			margin-left: 12%;
+		}
+/* END Other Story*/
