@@ -271,8 +271,8 @@ border: 0;
 /* Section slider*/
 	.section-slider{
 		width: 100%;
-		margin-top: 143px; 
-
+		margin-top: 143px;
+		overflow: hidden;
 	}
 		.how{
 			font-family: "muli" , sans-serif;
@@ -338,6 +338,8 @@ border: 0;
 	.icons-section{
 		width: 100%;
 		margin-top: 87px;
+		overflow: hidden;
+		position: relative;
 	}
 		.metaball-red{
 			width: 160px;
@@ -353,7 +355,7 @@ border: 0;
 			height: 350px;
 			background: #c272e8;
 			position: absolute;
-			transform: translateX(1285px);
+			right: -90px;
 			margin-top: 4px;
 			border-radius: 70% 30% 25% 75% / 50% 47% 53% 50%;
 		}
@@ -408,4 +410,37 @@ border: 0;
 			color: rgb(255 80 113);
 			margin-left: 12%;
 		}
+		.slideFood-container{
+			width: 100%;
+			height: 649px;
+			display: flex;
+			overflow: hidden;
+		}
+			.slide-foodText{
+				width: 50%;
+				height: 100%;
+			}
+				.page-container{
+					white-space: nowrap;
+					width: 100%;
+					height: 100%;
+				}
+					.pageFoodText{
+						width: 100%;
+						height: 100%;
+						background-color: #ffa725;
+						display: inline-block;
+					}
+			.slide-foodImg{
+				width: 50%;
+				height: 100%;
+			}
+				.pageFoodImg{
+					width: 100%;
+					height: 100%;
+					background-image: url(../img/Franpos_Photo_Website_2.jpg);
+					background-size: cover;
+					background-position: center;
+					display: inline-block;
+				}
 /* END Other Story*/
