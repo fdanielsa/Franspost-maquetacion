@@ -430,7 +430,32 @@ border: 0;
 						height: 100%;
 						background-color: #ffa725;
 						display: inline-block;
+						vertical-align: top;
 					}
+						.content-page{
+							width: 85%;
+							height: 50%;
+							white-space: normal;
+							margin-top: 167px;
+							margin-left: 12%;
+						}
+							.logo-chiken{
+								margin-left: 12%;
+								margin-top: 163px;
+							}
+							.description-food{
+								width: 50%;
+								margin-left: 12%;
+								font-family: "muli", sans-serif;
+								font-weight: 300;
+								color: #fff;
+							}
+						.autor-text{
+							margin-left: 12%;
+							font-family: "muli" , sans-serif;
+							font-weight: 300;
+							color: #fff;
+						}
 			.slide-foodImg{
 				width: 50%;
 				height: 100%;
@@ -444,3 +469,29 @@ border: 0;
 					display: inline-block;
 				}
 /* END Other Story*/
+/*Section Bottom Form*/
+	.section-BottomFrom{
+		width: 100%;
+		background-color: #fff;
+		text-align: center;
+	}
+		.title-Prove{
+			font-family: "muli", sans-serif;
+			font-weight: 400;
+			color: rgb(255 80 113);
+			text-align: center;
+			margin-bottom: 75px;
+			font-size: 20px;
+		}
+		.Format{
+			text-align: center;
+		}
+		.text-section{
+			text-align: center;
+			font-weight: 300;
+			font-family: "muli", sans-serif;
+			margin-top: 30px;
+			width: 100%;
+			font-size: 15px;
+		}
+/*END Section Bottom Form*/
