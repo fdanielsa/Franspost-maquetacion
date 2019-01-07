@@ -495,3 +495,12 @@ border: 0;
 			font-size: 15px;
 		}
 /*END Section Bottom Form*/
+/*Footer*/
+	.Footer{
+		width: 100%;
+		background-color: #141e22;
+	}
+		.content-Footer{
+
+		}
+/*END Footer*/
